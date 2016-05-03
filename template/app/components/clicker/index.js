@@ -21,7 +21,7 @@ export default class Clicker extends React.Component {
     static propTypes = {
         clicker: React.PropTypes.number.isRequired,
         click: React.PropTypes.func.isRequired
-    }
+    };
 
     render() {
         return (
